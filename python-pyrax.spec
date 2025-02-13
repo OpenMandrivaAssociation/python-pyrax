@@ -10,11 +10,11 @@ BuildRequires:	python
 BuildSystem:	python
 BuildArch:	noarch
 
+%patchlist
+pyrax-relax-novaclient-dep.patch
+
 %description
 Python language bindings for OpenStack Clouds.
-
-%prep
-%autosetup -p1 -n pyrax-%{version}
 
 %files
 %{py_sitedir}/pyrax

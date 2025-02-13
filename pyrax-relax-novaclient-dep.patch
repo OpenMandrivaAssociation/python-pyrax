@@ -1,0 +1,12 @@
+diff -up pyrax-1.10.0/setup.py.omv~ pyrax-1.10.0/setup.py
+--- pyrax-1.10.0/setup.py.omv~	2025-02-13 01:43:38.155391876 +0100
++++ pyrax-1.10.0/setup.py	2025-02-13 01:44:22.336624622 +0100
+@@ -90,7 +90,7 @@ setup(
+         "Operating System :: OS Independent",
+     ],
+     install_requires=[
+-        "python-novaclient==2.27.0",
++        "python-novaclient>=2.27.0",
+         "rackspace-novaclient",
+         "keyring",
+         "requests>=2.2.1,<3",
