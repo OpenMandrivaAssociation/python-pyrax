@@ -6,7 +6,6 @@ Summary:	Python language bindings for OpenStack Clouds.
 URL:		https://pypi.org/project/pyrax/
 License:	Apache License, Version 2.0
 Group:		Development/Python
-BuildRequires:	python
 BuildSystem:	python
 BuildArch:	noarch
 
