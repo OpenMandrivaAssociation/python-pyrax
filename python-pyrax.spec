@@ -1,6 +1,6 @@
 Name:		python-pyrax
 Version:	1.10.0
-Release:	2
+Release:	3
 Source0:	https://files.pythonhosted.org/packages/source/p/pyrax/pyrax-%{version}.tar.gz
 Summary:	Python language bindings for OpenStack Clouds.
 URL:		https://pypi.org/project/pyrax/
